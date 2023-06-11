@@ -1,0 +1,31 @@
+{
+  "name": "@leex/mps",
+  "version": "0.0.1",
+  "private": true,
+  "packageManager": "pnpm@8.6.0",
+  "description": "A Simple Message Push System",
+  "license": "MIT",
+  "homepage": "https://github.com/jsonleex/leex.mps#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsonleex/leex.mps.git"
+  },
+  "bugs": "https://github.com/jsonleex/leex.mps/issues",
+  "keywords": [
+    "WeChat",
+    "Message Push System"
+  ],
+  "scripts": {
+    "dev": "nitropack dev",
+    "build": "nitropack build",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix ."
+  },
+  "dependencies": {
+    "nitropack": "latest"
+  },
+  "devDependencies": {
+    "@leex/eslint-config": "^1.1.0",
+    "eslint": "^8.42.0"
+  }
+}
